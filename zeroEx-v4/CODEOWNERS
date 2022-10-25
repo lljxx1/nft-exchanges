@@ -1,0 +1,20 @@
+# See https://help.github.com/articles/about-codeowners/
+
+# for more info about CODEOWNERS file
+
+# It uses the same pattern rule for gitignore file
+
+# https://git-scm.com/docs/gitignore#_pattern_format
+
+packages/asset-swapper/ @dekz @dextracker @kyu-c
+
+# Dev tools & setup
+
+.circleci/ @dekz
+packages/contract-addresses/ @dekz @dextracker @kyu-c
+packages/contract-artifacts/ @dekz
+packages/protocol-utils/ @dekz
+
+# Protocol/smart contracts
+
+contracts/ @dekz @dextracker

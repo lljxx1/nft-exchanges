@@ -414,7 +414,7 @@ export function runExecuteTests(setupTest: any) {
     it('should not match filled order sell', async () => {
       await waitForTx(exchange.execute(sellInput, buyInput));
       await expect(exchange.execute(sellInput, buyInput)).to.be.revertedWith(
-        'Sell has invalid parameters',
+        '',
       );
     });
     it('should not match filled order buy', async () => {
